@@ -23,7 +23,10 @@ There is a `data.js` file to make seeding into a slightly less tedious copy-past
 ## Stretch goals
 1. Conditional rendering: If a data object has a beds property of 0, don't display any bedroom data at all. See the center card in the top row of the mockup for an example.
 1. More conditional rendering: If a data object has a sqft property, display it as it looks in the first card of the second row in the mockup.
-1. Let's avoid the 6 separate invocations of Card: In your `App.js`, create a variable that contains the whole array of objects from `data.js`. Iterate through this array, mapping it into a chunk of jsx for each object. This tutorial is helpful: https://scotch.io/courses/10-react-challenges-beginner/loop-over-and-display-data-with-jsx. Note that in this tutorial, they just write some h3 and p tags in the map loop, but we are instead using a Card component! Two more tutorials that are both a little farther from what we covered today: https://thinkster.io/tutorials/iterating-and-rendering-loops-in-react, https://medium.com/how-to-react/different-ways-to-loop-through-arrays-and-objects-in-react-39bcd870ccf
+1. Let's avoid the 6 separate invocations of Card: In your `App.js`, create a variable that contains the whole array of objects from `data.js`. (You could copy-paste it, or import it.) Iterate through this array, mapping it into a chunk of jsx for each object. This tutorial is helpful: https://scotch.io/courses/10-react-challenges-beginner/loop-over-and-display-data-with-jsx. Note that in this tutorial, they just write some h3 and p tags in the map loop, but we are instead using a Card component! Two more tutorials that are both a little farther from what we covered today: https://thinkster.io/tutorials/iterating-and-rendering-loops-in-react, https://medium.com/how-to-react/different-ways-to-loop-through-arrays-and-objects-in-react-39bcd870ccf
+1. You might have noticed a warning like this in your console:
+![key-warning.png](./key-warning.png)
+Though it seems like our app continues to work, this actually can introduce VERY confusing bugs down the line and should be dealt with. Google this message and see what it means, and what to do about it.
 1. Break each card down into subcomponents. (The card component should forward the relevant pieces of its props into its children components)
 
 
