@@ -15,10 +15,11 @@ There is a `data.js` file to make seeding into a slightly less tedious copy-past
 
 ## Core goals
 1. Create a fresh react app in this folder
-1. `cd` into your new app, and wipe out `App.js` and `App.css`
-1. `mkdir` a components folder to contain your components
-1. Make a `Card` component that will receive props from its parent, and display its various props in its `return`ed jsx
-1. Invoke the `Card` component multiple times in your `App.js`, giving it different props each time.
+1. `cd` into your new app, and `rm -rf .git`
+2. still in your new app, wipe out `App.js` and `App.css`
+3. `mkdir` a components folder to contain your components
+4. Make a `Card` component that will receive props from its parent, and display its various props in its `return`ed jsx
+5. Invoke the `Card` component multiple times in your `App.js`, giving it different props each time.
 
 ## Stretch goals
 1. Conditional rendering: If a data object has a beds property of 0, don't display any bedroom data at all. See the center card in the top row of the mockup for an example.
