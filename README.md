@@ -8,7 +8,7 @@ There is a `data.js` file to make seeding into a slightly less tedious copy-past
 ## Notes
 1. Don't worry about the searchbar at the top, just the 6 cards.
 1. For the links, you can make `<a>` tags with `href` equal to the `linkTo` value.
-1. One card has no `beds` property in the mockup. For core goals, it has a number of beds in data.js. Handling cards with no beds is addressed in stretch goals.
+1. One card has no `beds` property in the mockup. For core goals, use the number of beds directly from data.js. Handling cards with no beds is addressed in stretch goals.
 1. One card data has a `sqft` property. This is addressed in a stretch goal, but for cores you don't have to worry about it.
 1. Don't worry about the little trashcan icons.
 1. Remember flexbox and grid? All the old rules still apply: size up the task and figure out for yourself which tool makes sense for this job.
