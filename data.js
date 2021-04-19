@@ -1,4 +1,4 @@
-[
+export default [
   {
     price: 4500,
     title: "STUNNING AND RENOVATED IN SOUTH END!",
@@ -54,19 +54,3 @@
     location: "Beacon Hill",
   },
 ]
-
-
-
-
-
-
-
-
-https://imgur.com/gallery/oIBQXw9
-https://i.imgur.com/5xCusSA.png
-
-https://imgur.com/gallery/ggOTg
-https://i.imgur.com/AG3AnPP.png
-
-https://imgur.com/t/interior_design/Ybx25QN?nc=1
-https://i.imgur.com/vrJjwU8.png
