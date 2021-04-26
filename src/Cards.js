@@ -6,5 +6,5 @@ export default function Cards({ cards }) {
         cards.map( card => {
             return <Card key={card} card={card}/>
         })
-    )
+    ) 
 }

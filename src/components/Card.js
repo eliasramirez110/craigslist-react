@@ -12,5 +12,5 @@ export default function Card({ card }) {
             </div>
             
         </div>
-    )
+    ) 
 }

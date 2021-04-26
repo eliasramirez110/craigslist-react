@@ -7,7 +7,7 @@ const data = [
     postedOn: "Aug 28",
     beds: 3,
     location: "South End",
-  },
+  }, 
   {
     price: 1625,
     title: "Studio, Student Friendly, NO FEE",
